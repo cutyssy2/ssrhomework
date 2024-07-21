@@ -1,0 +1,76 @@
+body {
+    font-family: 'Noto Sans KR', 'Arial', sans-serif;
+    background-color: #f6f6f6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login_box {
+    background-color: #ffffff;
+    width: 320px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #03c75a;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.login_main input[type="text"],
+.login_main input[type="password"] {
+    width: calc(100% - 24px);
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+.login_main div {
+    text-align: left;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.login_main button {
+    width: 100%;
+    padding: 12px;
+    background-color: #03c75a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.login_main button:hover {
+    background-color: #02ac4d;
+}
+
+.find_links, .policy_links {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
+
+.find_links a, .policy_links a {
+    color: #666;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.find_links a:hover, .policy_links a:hover {
+    text-decoration: underline;
+}
